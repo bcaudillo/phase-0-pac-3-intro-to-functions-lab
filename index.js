@@ -1,0 +1,41 @@
+function shout(string){
+    return string.toUpperCase();
+}
+function logShout(string){
+    console.log(string.toUpperCase());
+}
+function whisper(string){
+    return string.toLowerCase();
+}
+function logWhisper(string){
+    console.log(string.toLowerCase());
+}
+
+
+function sayHiToHeadphonedRoommate(string){
+    switch(string){
+        case (string.toUpperCase()):
+            return (`YES INDEED!`);
+            break;
+    
+        case (string.toLowerCase()):
+            return (`I can\'t hear you!`);
+            break;
+
+        case (`Let\'s have dinner together!`):
+            return ("I would love to!");
+            break;
+
+    }
+}
+
+/*
+function sayHiToHeadphonedRoommate(string){
+    if (string === string.toUpperCase())
+        return ("YES INDEED!");
+    else if (string === string.toLowerCase())
+        return ("I can't hear you!");
+    else (string === "Let's have dinner together!")
+        return ("I would love to!");
+}
+*/
